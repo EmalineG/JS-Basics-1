@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'Git is the ability to save past versions of your program. Git can be used to revert to past versions of program or to collaborate with teams by pushing a current version of your program to Github where it can be looked at by others and integrated into the primary code.'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'Github is a platform that allows developers to store their gits remotely.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,7 @@
 
 //CODE HERE
 
+let gitInitDefinition = 'git init initializes the first git AKA creating a repository. This repository will account for all child directories of the directory it was placed in. From there on out, you can save more gits within this git.'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +40,7 @@
 
 //CODE HERE
 
+ let gitCloneDefinition = 'git clone is when you make a copy of your git repository to place somewhere else on your computer.'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +48,8 @@
 */
 
 //CODE HERE
+
+let gitStatusDefinition = 'git status lets you see the current status of the directory you are in. this can include which changes have been commited and which files are being tracked by the git'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +62,11 @@
 
 //CODE HERE
 
+let gitAddDefinition = 'git add collects the data at the point of command in that directory. you would do this in order to commit your git.'
+
+let gitAddCode = 'git add .'
+
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +78,8 @@
 
 //CODE HERE
 
+let gitCommitDefinition = 'git commit lets you name the data collected via git add and save it'
+let gitCommitCode = ' git commit -m "initial commit '
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +88,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = 'git push allows you to upload the git commit to a remote origin, for instance github'
