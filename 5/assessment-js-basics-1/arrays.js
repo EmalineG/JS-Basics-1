@@ -48,7 +48,7 @@ let answers = []
 for(let i = 0; i < bigOrSmallArray.length; i++){
   if(bigOrSmallArray[i] > 100){
     answers.push('big')
-  } else{
+  } else(bigOrSmallArray[i] <= 100){
     answers.push('small')
   }
 }
