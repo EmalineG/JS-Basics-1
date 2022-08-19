@@ -1,10 +1,19 @@
-let password = 'passrd123455234532'
+let password = 'password123455234532'
 let digitFind = /[0-9]/g
 let letterFind = /[a-z]/g
 let space = " "
 
 if(password.length >= 10 && password.match(digitFind) && password.match(letterFind) && !password.match(space) && !password.includes('password')){
-    console.log('yay good job you have a password')
+    console.log('\
+    ____ ____ ____ _________ ____ ____ ____ ____ _________ ____ ____ ____ \n\
+   ||y |||a |||y |||       |||g |||o |||o |||d |||       |||j |||o |||b ||\n\
+   ||__|||__|||__|||_______|||__|||__|||__|||__|||_______|||__|||__|||__||\n\
+   |/__\\|/__\\|/__\\|/_______\\|/__\\|/__\\|/__\\|/__\\|/_______\\|/__\\|/__\\|/__\\|\n\
+   ')
 }else{
-    console.log('nope try again')
+    console.log(' \n\
+     ____ ____ ____ _________ ____ ____ ____ ____ ____ \n\
+    ||t |||r |||y |||       |||a |||g |||a |||i |||n ||\n\
+    ||__|||__|||__|||_______|||__|||__|||__|||__|||__||\n\
+    |/__\\|/__\\|/__\\|/_______\\|/__\\|/__\\|/__\\|/__\\|/__\\|')
 }
